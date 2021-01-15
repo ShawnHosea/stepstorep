@@ -1,0 +1,79 @@
+
+.Header {
+    width: 100%;
+  }
+  
+  .HeaderGroup {
+    max-width: 900px;
+    margin: 0rem auto 0;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "H1 . H2";
+  }
+  
+  .headLogo img {
+    grid-area: H1;
+  }
+  .headLogin {
+    grid-area: H2;
+  }
+  
+  .option {
+    cursor: pointer;
+  }
+
+  .footer {
+    margin: 2rem 0;
+    position: static;
+    width: 100%;
+   
+    text-align: center;
+  }
+
+  a {
+    color: #000;
+  }
+
+  a:hover {
+    color: rgb(255, 217, 0);
+  }
+
+.authBTN {
+  padding: 1rem;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0.3rem;
+  margin: .5rem 0;
+}
+
+.authBTN:hover {
+  cursor: pointer;
+  background-color: rgb(255, 217, 0);
+  color:#000;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.divider {
+  border-top: 1px solid #d9dadc;
+  display: block;
+  line-height: 1px;
+  margin: 2rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.divider .divider-title {
+  background: #fff;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-transform: uppercase;
+}

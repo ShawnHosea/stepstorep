@@ -3,9 +3,18 @@
   "version": "0.0.0",
   "description": "A simple Begin app with the minimum necessary file structure",
   "scripts": {
-    "start": "npx sandbox"
+    "start": "npx sandbox",
+    "test": "tape test/index-test.js | tap-spec",
+    "styles": "npx cssmitten ./config.json > ./public/styles/styles.css"
   },
   "devDependencies": {
-    "@architect/sandbox": "^3.3"
+    "@architect/sandbox": "^3.3.4"
+  },
+  "dependencies": {
+    "@begin/data": "^1.2.3",
+    "cssmitten": "^3.0.5",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.1.1",
+    "tiny-json-http": "^7.3.0"
   }
 }
