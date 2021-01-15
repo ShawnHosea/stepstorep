@@ -13,28 +13,28 @@
     "colors": {
         "primary": [
             {
-                "label": "Medium Aquamarine light",
-                "value": "#2CDD93"
+                "label": "Rich Black FOGRA 29",
+                "value": "#001524"
             },
             {
-                "label": "Bright Navy Blue light",
-                "value": "#1F74D6"
+                "label": "Ming",
+                "value": "#15616D"
             },
             {
-                "label": "Royal Purple light",
-                "value": "hsl(267, 50%, 55%)"
+                "label": "Blanched Almond",
+                "value": "#FFECD1"
             },
             {
-                "label": "Barbie Pink light",
-                "value": "#E21893"
+                "label": "Amber SAE ECE",
+                "value": "#FF7D00"
             },
             {
-                "label": "Bittersweet Orange light",
-                "value": "#FF6263"
+                "label": "Kobe",
+                "value": "#78290F"
             },
             {
-                "label": "Royal purple",
-                "value": "hsl(267, 75%, 45%)"
+                "label": "Minion Yellow",
+                "value": "#FAE05D"
             }
         ],
         "greyscale": [
@@ -85,28 +85,28 @@
         ],
         "hover": [
             {
-                "label": "Medium Aquamarine",
-                "value": "#3EE09C"
+                "label": "Rich Black FOGRA 29",
+                "value": "#003052"
             },
             {
-                "label": "Bright Navy Blue",
-                "value": "#2a80e0"
+                "label": "Ming",
+                "value": "#1d8a9a"
             },
             {
-                "label": "Royal Purple Hover",
-                "value": "hsl(267, 90%, 55%)"
+                "label": "Blanched Almond",
+                "value": "#fff7eb"
             },
             {
-                "label": "Barbie Pink",
-                "value": "#DE1792"
+                "label": "Amber SAE ECE",
+                "value": "#ff9633"
             },
             {
-                "label": "Bittersweet Orange",
-                "value": "#FF4747"
+                "label": "Kobe",
+                "value": "#a33814"
             },
             {
                 "label": "Minion Yellow",
-                "value": "#FAE05D"
+                "value": "#fbe888"
             }
         ],
         "active": [

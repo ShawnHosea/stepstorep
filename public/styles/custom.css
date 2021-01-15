@@ -1,3 +1,7 @@
+body {
+  background-color: #FFECD1;
+  color: #001524;
+}
 
 .Header {
     width: 100%;
@@ -6,12 +10,12 @@
   .HeaderGroup {
     max-width: 900px;
     margin: 0rem auto 0;
-    padding: 3rem 0;
+    padding: 1rem 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
-    grid-template-areas: "H1 . H2";
+    grid-template-areas: "H1 . . H2";
   }
   
   .headLogo img {

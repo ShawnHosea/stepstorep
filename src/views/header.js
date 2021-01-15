@@ -22,8 +22,9 @@ return `
         <div class='HeaderGroup'>
             <a href="/"><img height='40px' alt='logo' src="${logo}"></a>
             <a class="uppercase no-underline" href="/about">About</a>
-            <a href="/login"><button class="uppercase no-underline pt-1 pb-1 pr2 pl2 bg-p4 text-g0 radius0 cursor-pointer bg-h5 bg-d1">Login</button></a>
-            
+            <div class="headLogin">
+            <a href="/login"><button class="uppercase no-underline bg-p0 pt-1 pb-1 pr2 pl2 text-g0 radius0 cursor-pointer bg-h0 text-h2 bg-d1 m1">Login</button></a>
+            </div>
         </div>
     </div>
     `;
