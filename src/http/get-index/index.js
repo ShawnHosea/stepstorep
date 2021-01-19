@@ -9,8 +9,8 @@ exports.handler = async function Index (req) {
   let body = Layout({ 
     content: 
     `<div class="wrapper">
-        <div class="m-auto block-lg text-center mt1">
-          <h1>Steps to Reproduce</h1> 
+        <div class="m-auto block-lg mt1">
+          <h1 class="text-center">Steps to Reproduce</h1> 
           <form action="/results" method="POST">
                 <div class="m1">
                     <label for="expected behavior"><b>Expected behavior:</b></label>
@@ -22,6 +22,17 @@ exports.handler = async function Index (req) {
                     <label for="Description of bug"><b>Description of bug:</b></label>
                     <br>
                     <textarea id="Description of bug" class="border-solid border1 border-g3" type="text" required name="Description of bug" rows="4" cols="50" placeholder="A clear and concise description of what the bug is."></textarea>
+                </div>
+
+                <div class="m1">
+                    <label for="Steps to reproduce"><b>Steps to reproduce:</b></label>
+                    <br>
+                    <textarea id="Steps to reproduce" class="border-solid border1 border-g3" type="text" required name="Steps to reproduce" rows="8" cols="70" placeholder="Detailed steps to reproduce the behavior:
+                    1. Go to '...'
+                    2. Click on '...'
+                    3. Scroll down to '...'
+                    4. See error
+                    "></textarea>
                 </div>
 
                 
